@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="About This Page">
+    <body>
+      <group id="body">
+        <trans-unit id="Page 205238124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>About This Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 1627479110 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control RecordControl - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 10542026 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fields</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control FieldsGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 1131619133 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 284195533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 915109913 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters (Group 0)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control FilterGroup0 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 1552806530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters (Group 1)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control FilterGroup1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 3934683975 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters (Group 2)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control FilterGroup2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 277413296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters (Group 3)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control FilterGroup3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 3465896381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters (Group 4)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control FilterGroup4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 4103592998 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters (Group 5)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control FilterGroup5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 2190503147 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters (Group 6)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control FilterGroup6 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 2828199764 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters (Group 7)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control FilterGroup7 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 108504273 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters (Group 8)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control FilterGroup8 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 746200890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filters (Group 9)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control FilterGroup9 - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

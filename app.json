@@ -1,0 +1,26 @@
+{
+  "id": "aab0ed8d-0d1e-4512-ae6f-fcc3dc1abbf4",
+  "name": "About This Page",
+  "publisher": "James Pearson",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
+  "idRange": {
+    "from": 99990,
+    "to": 99999
+  },
+  "runtime": "2.0",
+  "features": [
+    "TranslationFile"
+  ]
+}
