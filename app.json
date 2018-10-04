@@ -22,5 +22,6 @@
   "runtime": "2.0",
   "features": [
     "TranslationFile"
-  ]
+  ],
+  "showMyCode": true
 }
