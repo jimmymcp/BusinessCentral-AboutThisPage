@@ -21,6 +21,7 @@ page 99990 "About This Page"
                 {
                     Caption = 'Record';
                     Editable = false;
+                    ApplicationArea = All;
                 }
             }
             group(FieldsGroup)
@@ -47,6 +48,7 @@ page 99990 "About This Page"
                 {
                     Caption = 'Filters (Group 0)';
                     Editable  = false;
+                    ApplicationArea = All;
 
                     trigger OnDrillDown()
                     begin
@@ -57,6 +59,7 @@ page 99990 "About This Page"
                 {
                     Caption = 'Filters (Group 1)';
                     Editable  = false;
+                    ApplicationArea = All;
 
                     trigger OnDrillDown()
                     begin
@@ -67,6 +70,7 @@ page 99990 "About This Page"
                 {
                     Caption = 'Filters (Group 2)';
                     Editable  = false;
+                    ApplicationArea = All;
 
                     trigger OnDrillDown()
                     begin
@@ -77,6 +81,7 @@ page 99990 "About This Page"
                 {
                     Caption = 'Filters (Group 3)';
                     Editable  = false;
+                    ApplicationArea = All;
 
                     trigger OnDrillDown()
                     begin
@@ -87,6 +92,7 @@ page 99990 "About This Page"
                 {
                     Caption = 'Filters (Group 4)';
                     Editable  = false;
+                    ApplicationArea = All;
 
                     trigger OnDrillDown()
                     begin
@@ -97,6 +103,7 @@ page 99990 "About This Page"
                 {
                     Caption = 'Filters (Group 5)';
                     Editable  = false;
+                    ApplicationArea = All;
 
                     trigger OnDrillDown()
                     begin
@@ -107,6 +114,7 @@ page 99990 "About This Page"
                 {
                     Caption = 'Filters (Group 6)';
                     Editable  = false;
+                    ApplicationArea = All;
 
                     trigger OnDrillDown()
                     begin
@@ -117,6 +125,7 @@ page 99990 "About This Page"
                 {
                     Caption = 'Filters (Group 7)';
                     Editable  = false;
+                    ApplicationArea = All;
 
                     trigger OnDrillDown()
                     begin
@@ -127,6 +136,7 @@ page 99990 "About This Page"
                 {
                     Caption = 'Filters (Group 8)';
                     Editable  = false;
+                    ApplicationArea = All;
 
                     trigger OnDrillDown()
                     begin
@@ -137,6 +147,7 @@ page 99990 "About This Page"
                 {
                     Caption = 'Filters (Group 9)';
                     Editable  = false;
+                    ApplicationArea = All;
 
                     trigger OnDrillDown()
                     begin
