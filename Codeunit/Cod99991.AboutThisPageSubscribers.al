@@ -1251,11 +1251,12 @@ codeunit 99991 "About This Page Subscribers"
         AboutThisPage.SetRec(Rec);
     end;
     
+    /* Page not present in microsoft/bcsandbox:de
     [EventSubscriber(ObjectType::Page,Page::"EC Sales List Reports",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure ECSalesListReportsOnAfterGetCurrRecord(var Rec: Record "VAT Report Header");
     begin
         AboutThisPage.SetRec(Rec);
-    end;
+    end; */
     
     [EventSubscriber(ObjectType::Page,Page::"Intrastat Journal Templates",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure IntrastatJournalTemplatesOnAfterGetCurrRecord(var Rec: Record "Intrastat Jnl. Template");
