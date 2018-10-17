@@ -1,4 +1,4 @@
-page 99990 "About This Page"
+page 79990 "About This Page"
 {
     PageType = List;
     ApplicationArea = All;
@@ -22,6 +22,18 @@ page 99990 "About This Page"
                     Caption = 'Record';
                     Editable = false;
                     ApplicationArea = All;
+                }
+                field(SourceTable; AboutThisPage.GetSourceTable())
+                {
+                    Caption = 'Source Table';
+                    ApplicationArea = All;
+                    Editable = false;
+                }
+                field(PageName; AboutThisPage.GetPage())
+                {
+                    Caption = 'Page';
+                    ApplicationArea = All;
+                    Editable = false;
                 }
             }
             group(FieldsGroup)

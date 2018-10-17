@@ -18,6 +18,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control RecordControl - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 205238124 - Control 2319296925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Table</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control SourceTable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 205238124 - Control 1338796320 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page About This Page - Control PageName - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 205238124 - Control 10542026 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Fields</source>
           <note from="Developer" annotates="general" priority="2"></note>
