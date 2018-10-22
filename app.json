@@ -8,20 +8,17 @@
   "privacyStatement": "",
   "EULA": "",
   "help": "",
-  "url": "http://jpearson.blog/2018/10/04/about-this-page-in-dynamics-365-business-central",
+  "url": "http://jpearson.blog/2018/10/22/about-this-page-in-dynamics-nav-2018",
   "logo": "./Logo/logo.png",
   "capabilities": [],
   "dependencies": [],
   "screenshots": [],
-  "platform": "13.0.0.0",
-  "application": "13.0.0.0",
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
   "idRange": {
     "from": 79990,
     "to": 79999
   },
-  "runtime": "2.0",
-  "features": [
-    "TranslationFile"
-  ],
+  "features": "TranslationFile",
   "showMyCode": true
 }

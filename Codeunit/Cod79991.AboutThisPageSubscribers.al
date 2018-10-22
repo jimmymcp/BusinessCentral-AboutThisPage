@@ -1551,13 +1551,7 @@ codeunit 79991 "About This Page Subscribers"
     begin
         AboutThisPage.SetRec(Rec,Page::"SMTP Mail Setup");
     end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Graph Mail Setup",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure GraphMailSetupOnAfterGetCurrRecord(var Rec: Record "Graph Mail Setup");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Graph Mail Setup");
-    end;
-    
+        
     [EventSubscriber(ObjectType::Page,Page::"G/L Balance",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure GLBalanceOnAfterGetCurrRecord(var Rec: Record "G/L Account");
     begin
@@ -2283,13 +2277,7 @@ codeunit 79991 "About This Page Subscribers"
     begin
         AboutThisPage.SetRec(Rec,Page::"No. Series List");
     end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Finance Charge Interest Rates",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure FinanceChargeInterestRatesOnAfterGetCurrRecord(var Rec: Record "Finance Charge Interest Rate");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Finance Charge Interest Rates");
-    end;
-    
+        
     [EventSubscriber(ObjectType::Page,Page::"Detailed Cust. Ledg. Entries",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure DetailedCustLedgEntriesOnAfterGetCurrRecord(var Rec: Record "Detailed Cust. Ledg. Entry");
     begin
@@ -2306,12 +2294,6 @@ codeunit 79991 "About This Page Subscribers"
     local procedure VATRegistrationNoFormatsOnAfterGetCurrRecord(var Rec: Record "VAT Registration No. Format");
     begin
         AboutThisPage.SetRec(Rec,Page::"VAT Registration No. Formats");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Change Global Dimensions",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure ChangeGlobalDimensionsOnAfterGetCurrRecord(var Rec: Record "Change Global Dim. Header");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Change Global Dimensions");
     end;
     
     [EventSubscriber(ObjectType::Page,Page::"Dimension Translations",'OnAfterGetCurrRecordEvent','',true,true)]
@@ -2697,19 +2679,7 @@ codeunit 79991 "About This Page Subscribers"
     begin
         AboutThisPage.SetRec(Rec,Page::"Activity Log");
     end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Custom Address Format",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure CustomAddressFormatOnAfterGetCurrRecord(var Rec: Record "Custom Address Format");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Custom Address Format");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Custom Address Format Lines",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure CustomAddressFormatLinesOnAfterGetCurrRecord(var Rec: Record "Custom Address Format Line");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Custom Address Format Lines");
-    end;
-    
+        
     [EventSubscriber(ObjectType::Page,Page::"VAT Report Log",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure VATReportLogOnAfterGetCurrRecord(var Rec: Record "VAT Report Archive");
     begin
@@ -2798,12 +2768,6 @@ codeunit 79991 "About This Page Subscribers"
     local procedure ShipmentMethodTranslationsOnAfterGetCurrRecord(var Rec: Record "Shipment Method Translation");
     begin
         AboutThisPage.SetRec(Rec,Page::"Shipment Method Translations");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Payment Method Translations",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure PaymentMethodTranslationsOnAfterGetCurrRecord(var Rec: Record "Payment Method Translation");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Payment Method Translations");
     end;
     
     [EventSubscriber(ObjectType::Page,Page::"Account Schedules Chart Setup",'OnAfterGetCurrRecordEvent','',true,true)]
@@ -3501,19 +3465,7 @@ codeunit 79991 "About This Page Subscribers"
     begin
         AboutThisPage.SetRec(Rec,Page::"User Task Card");
     end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Document Attachment Details",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure DocumentAttachmentDetailsOnAfterGetCurrRecord(var Rec: Record "Document Attachment");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Document Attachment Details");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Data Privacy Wizard",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure DataPrivacyWizardOnAfterGetCurrRecord(var Rec: Record "Data Privacy Entities");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Data Privacy Wizard");
-    end;
-    
+           
     [EventSubscriber(ObjectType::Page,Page::"Bank Export/Import Setup",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure BankExportImportSetupOnAfterGetCurrRecord(var Rec: Record "Bank Export/Import Setup");
     begin
@@ -4144,24 +4096,6 @@ codeunit 79991 "About This Page Subscribers"
         AboutThisPage.SetRec(Rec,Page::"Deferral Schedule Archive");
     end;
     
-    [EventSubscriber(ObjectType::Page,Page::"Data Classification Wizard",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure DataClassificationWizardOnAfterGetCurrRecord(var Rec: Record "Data Privacy Entities");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Data Classification Wizard");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Field Content Buffer",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure FieldContentBufferOnAfterGetCurrRecord(var Rec: Record "Field Content Buffer");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Field Content Buffer");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Data Subject",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure DataSubjectOnAfterGetCurrRecord(var Rec: Record "Data Privacy Entities");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Data Subject");
-    end;
-    
     [EventSubscriber(ObjectType::Page,Page::"Data Migration Error",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure DataMigrationErrorOnAfterGetCurrRecord(var Rec: Record "Data Migration Error");
     begin
@@ -4575,13 +4509,7 @@ codeunit 79991 "About This Page Subscribers"
     begin
         AboutThisPage.SetRec(Rec,Page::"O365 Invoicing Settings");
     end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"O365 Units of Measure List",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure O365UnitsofMeasureListOnAfterGetCurrRecord(var Rec: Record "Unit of Measure");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"O365 Units of Measure List");
-    end;
-    
+        
     [EventSubscriber(ObjectType::Page,Page::"O365 Country/Region Card",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure O365CountryRegionCardOnAfterGetCurrRecord(var Rec: Record "O365 Country/Region");
     begin
@@ -4593,13 +4521,7 @@ codeunit 79991 "About This Page Subscribers"
     begin
         AboutThisPage.SetRec(Rec,Page::"O365 Email Setup Wizard");
     end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"O365 Unit Of Measure Card",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure O365UnitOfMeasureCardOnAfterGetCurrRecord(var Rec: Record "Unit of Measure");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"O365 Unit Of Measure Card");
-    end;
-    
+        
     [EventSubscriber(ObjectType::Page,Page::"Sales Invoice Document API",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure SalesInvoiceDocumentAPIOnAfterGetCurrRecord(var Rec: Record "O365 Sales Invoice Document");
     begin
@@ -4611,37 +4533,13 @@ codeunit 79991 "About This Page Subscribers"
     begin
         AboutThisPage.SetRec(Rec,Page::"Sales Invoice Reminder API");
     end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"BC O365 Getting Started",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure BCO365GettingStartedOnAfterGetCurrRecord(var Rec: Record "O365 Getting Started");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"BC O365 Getting Started");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"BC O365 Estimate List",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure BCO365EstimateListOnAfterGetCurrRecord(var Rec: Record "O365 Sales Document");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"BC O365 Estimate List");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"BC O365 Invoice List",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure BCO365InvoiceListOnAfterGetCurrRecord(var Rec: Record "O365 Sales Document");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"BC O365 Invoice List");
-    end;
-    
+        
     [EventSubscriber(ObjectType::Page,Page::"BC O365 Sales Invoice",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure BCO365SalesInvoiceOnAfterGetCurrRecord(var Rec: Record "Sales Header");
     begin
         AboutThisPage.SetRec(Rec,Page::"BC O365 Sales Invoice");
     end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"BC O365 Posted Sales Invoice",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure BCO365PostedSalesInvoiceOnAfterGetCurrRecord(var Rec: Record "Sales Invoice Header");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"BC O365 Posted Sales Invoice");
-    end;
-    
+      
     [EventSubscriber(ObjectType::Page,Page::"BC O365 Item List",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure BCO365ItemListOnAfterGetCurrRecord(var Rec: Record "Item");
     begin
@@ -4672,36 +4570,19 @@ codeunit 79991 "About This Page Subscribers"
         AboutThisPage.SetRec(Rec,Page::"BC O365 Sales Quote");
     end;
     
-    [EventSubscriber(ObjectType::Page,Page::"BC O365 Payment Instr. List",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure BCO365PaymentInstrListOnAfterGetCurrRecord(var Rec: Record "O365 Payment Instructions");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"BC O365 Payment Instr. List");
-    end;
-    
+        
     [EventSubscriber(ObjectType::Page,Page::"BC O365 Country/Region List",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure BCO365CountryRegionListOnAfterGetCurrRecord(var Rec: Record "O365 Country/Region");
     begin
         AboutThisPage.SetRec(Rec,Page::"BC O365 Country/Region List");
     end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"BC O365 Sent Documents List",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure BCO365SentDocumentsListOnAfterGetCurrRecord(var Rec: Record "O365 Sales Document");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"BC O365 Sent Documents List");
-    end;
-    
+     
     [EventSubscriber(ObjectType::Page,Page::"BC O365 Contact Lookup",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure BCO365ContactLookupOnAfterGetCurrRecord(var Rec: Record "Contact");
     begin
         AboutThisPage.SetRec(Rec,Page::"BC O365 Contact Lookup");
     end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Extension Settings",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure ExtensionSettingsOnAfterGetCurrRecord(var Rec: Record "NAV App Setting");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Extension Settings");
-    end;
-    
+     
     [EventSubscriber(ObjectType::Page,Page::"Native - KPIs Entity",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure NativeKPIsEntityOnAfterGetCurrRecord(var Rec: Record "O365 Sales Cue");
     begin
@@ -4731,13 +4612,7 @@ codeunit 79991 "About This Page Subscribers"
     begin
         AboutThisPage.SetRec(Rec,Page::"Native - Sales Inv. Entity");
     end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Native - Sales Inv. Overview",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure NativeSalesInvOverviewOnAfterGetCurrRecord(var Rec: Record "Sales Invoice Entity Aggregate");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Native - Sales Inv. Overview");
-    end;
-    
+      
     [EventSubscriber(ObjectType::Page,Page::"Native - Sales Quotes",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure NativeSalesQuotesOnAfterGetCurrRecord(var Rec: Record "Sales Quote Entity Buffer");
     begin
@@ -5841,19 +5716,7 @@ codeunit 79991 "About This Page Subscribers"
     begin
         AboutThisPage.SetRec(Rec,Page::"CRM Full Synch. Review");
     end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"SDK Version List",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure SDKVersionListOnAfterGetCurrRecord(var Rec: Record "TempStack");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"SDK Version List");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"CRM Skipped Records",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure CRMSkippedRecordsOnAfterGetCurrRecord(var Rec: Record "CRM Synch. Conflict Buffer");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"CRM Skipped Records");
-    end;
-    
+        
     [EventSubscriber(ObjectType::Page,Page::"CRM Option Mapping",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure CRMOptionMappingOnAfterGetCurrRecord(var Rec: Record "CRM Option Mapping");
     begin
@@ -6471,19 +6334,7 @@ codeunit 79991 "About This Page Subscribers"
     begin
         AboutThisPage.SetRec(Rec,Page::"Cross Reference List");
     end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Catalog Item Card",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure CatalogItemCardOnAfterGetCurrRecord(var Rec: Record "Nonstock Item");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Catalog Item Card");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Catalog Item List",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure CatalogItemListOnAfterGetCurrRecord(var Rec: Record "Nonstock Item");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Catalog Item List");
-    end;
-    
+        
     [EventSubscriber(ObjectType::Page,Page::"Purchasing Codes",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure PurchasingCodesOnAfterGetCurrRecord(var Rec: Record "Purchasing");
     begin
@@ -6506,12 +6357,6 @@ codeunit 79991 "About This Page Subscribers"
     local procedure ItemCategoriesOnAfterGetCurrRecord(var Rec: Record "Item Category");
     begin
         AboutThisPage.SetRec(Rec,Page::"Item Categories");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Catalog Item Setup",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure CatalogItemSetupOnAfterGetCurrRecord(var Rec: Record "Nonstock Item Setup");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Catalog Item Setup");
     end;
     
     [EventSubscriber(ObjectType::Page,Page::"Item Category Card",'OnAfterGetCurrRecordEvent','',true,true)]
@@ -7629,19 +7474,7 @@ codeunit 79991 "About This Page Subscribers"
     begin
         AboutThisPage.SetRec(Rec,Page::"PBI Top 5 Opportunities");
     end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"PBI Report Labels",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure PBIReportLabelsOnAfterGetCurrRecord(var Rec: Record "Power BI Report Labels");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"PBI Report Labels");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Power BI Deployments",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure PowerBIDeploymentsOnAfterGetCurrRecord(var Rec: Record "Power BI Customer Reports");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Power BI Deployments");
-    end;
-    
+       
     [EventSubscriber(ObjectType::Page,Page::"Flow Selector",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure FlowSelectorOnAfterGetCurrRecord(var Rec: Record "Workflow Webhook Entry");
     begin
@@ -7791,49 +7624,7 @@ codeunit 79991 "About This Page Subscribers"
     begin
         AboutThisPage.SetRec(Rec,Page::"Whse. Item Tracking Lines");
     end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Document Line Tracking",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure DocumentLineTrackingOnAfterGetCurrRecord(var Rec: Record "Document Entry");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Document Line Tracking");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Sales Line Archive List",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure SalesLineArchiveListOnAfterGetCurrRecord(var Rec: Record "Sales Line Archive");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Sales Line Archive List");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Blanket Sales Order Archive",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure BlanketSalesOrderArchiveOnAfterGetCurrRecord(var Rec: Record "Sales Header Archive");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Blanket Sales Order Archive");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Blanket Sales Order Archives",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure BlanketSalesOrderArchivesOnAfterGetCurrRecord(var Rec: Record "Sales Header Archive");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Blanket Sales Order Archives");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Blanket Purchase Order Archive",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure BlanketPurchaseOrderArchiveOnAfterGetCurrRecord(var Rec: Record "Purchase Header Archive");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Blanket Purchase Order Archive");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Blanket Purch. Order Archives",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure BlanketPurchOrderArchivesOnAfterGetCurrRecord(var Rec: Record "Purchase Header Archive");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Blanket Purch. Order Archives");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Purchase Line Archive List",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure PurchaseLineArchiveListOnAfterGetCurrRecord(var Rec: Record "Purchase Line Archive");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Purchase Line Archive List");
-    end;
-    
+       
     [EventSubscriber(ObjectType::Page,Page::"Sales Return Order Archive",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure SalesReturnOrderArchiveOnAfterGetCurrRecord(var Rec: Record "Sales Header Archive");
     begin
@@ -8817,13 +8608,7 @@ codeunit 79991 "About This Page Subscribers"
     begin
         AboutThisPage.SetRec(Rec,Page::"ADCS Users");
     end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Intrastat Checklist Setup",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure IntrastatChecklistSetupOnAfterGetCurrRecord(var Rec: Record "Intrastat Checklist Setup");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Intrastat Checklist Setup");
-    end;
-    
+       
     [EventSubscriber(ObjectType::Page,Page::"Config. Questionnaire",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure ConfigQuestionnaireOnAfterGetCurrRecord(var Rec: Record "Config. Questionnaire");
     begin
@@ -8992,18 +8777,6 @@ codeunit 79991 "About This Page Subscribers"
         AboutThisPage.SetRec(Rec,Page::"Generic Chart Filters");
     end;
     
-    [EventSubscriber(ObjectType::Page,Page::"Generic Charts",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure GenericChartsOnAfterGetCurrRecord(var Rec: Record "Chart");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Generic Charts");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Generic Chart Setup",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure GenericChartSetupOnAfterGetCurrRecord(var Rec: Record "Chart");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Generic Chart Setup");
-    end;
-    
     [EventSubscriber(ObjectType::Page,Page::"Generic Chart Text Editor",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure GenericChartTextEditorOnAfterGetCurrRecord(var Rec: Record "Generic Chart Captions Buffer");
     begin
@@ -9016,34 +8789,16 @@ codeunit 79991 "About This Page Subscribers"
         AboutThisPage.SetRec(Rec,Page::"Generic Chart Query Columns");
     end;
     
-    [EventSubscriber(ObjectType::Page,Page::"Generic Chart Customization",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure GenericChartCustomizationOnAfterGetCurrRecord(var Rec: Record "Chart");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Generic Chart Customization");
-    end;
-    
     [EventSubscriber(ObjectType::Page,Page::"Generic Chart Memo Editor",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure GenericChartMemoEditorOnAfterGetCurrRecord(var Rec: Record "Generic Chart Memo Buffer");
     begin
         AboutThisPage.SetRec(Rec,Page::"Generic Chart Memo Editor");
     end;
     
-    [EventSubscriber(ObjectType::Page,Page::"Delete Profile Configuration",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure DeleteProfileConfigurationOnAfterGetCurrRecord(var Rec: Record "Profile Metadata");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Delete Profile Configuration");
-    end;
-    
     [EventSubscriber(ObjectType::Page,Page::"Delete User Personalization",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure DeleteUserPersonalizationOnAfterGetCurrRecord(var Rec: Record "User Metadata");
     begin
         AboutThisPage.SetRec(Rec,Page::"Delete User Personalization");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Experience Tiers",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure ExperienceTiersOnAfterGetCurrRecord(var Rec: Record "Experience Tier Buffer");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Experience Tiers");
     end;
     
     [EventSubscriber(ObjectType::Page,Page::"Inventory Analysis Matrix",'OnAfterGetCurrRecordEvent','',true,true)]
@@ -9562,18 +9317,6 @@ codeunit 79991 "About This Page Subscribers"
         AboutThisPage.SetRec(Rec,Page::"Users");
     end;
     
-    [EventSubscriber(ObjectType::Page,Page::"Permission Sets",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure PermissionSetsOnAfterGetCurrRecord(var Rec: Record "Permission Set Buffer");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Permission Sets");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Permissions",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure PermissionsOnAfterGetCurrRecord(var Rec: Record "Permission");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Permissions");
-    end;
-    
     [EventSubscriber(ObjectType::Page,Page::"Table Filter",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure TableFilterOnAfterGetCurrRecord(var Rec: Record "Table Filter");
     begin
@@ -9604,12 +9347,6 @@ codeunit 79991 "About This Page Subscribers"
         AboutThisPage.SetRec(Rec,Page::"User Security Status List");
     end;
     
-    [EventSubscriber(ObjectType::Page,Page::"Control Add-ins",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure ControlAddinsOnAfterGetCurrRecord(var Rec: Record "Add-in");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Control Add-ins");
-    end;
-    
     [EventSubscriber(ObjectType::Page,Page::"User Plan Members",'OnAfterGetCurrRecordEvent','',true,true)]
     local procedure UserPlanMembersOnAfterGetCurrRecord(var Rec: Record "User Plan");
     begin
@@ -9620,12 +9357,6 @@ codeunit 79991 "About This Page Subscribers"
     local procedure PlansOnAfterGetCurrRecord(var Rec: Record "Plan");
     begin
         AboutThisPage.SetRec(Rec,Page::"Plans");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"User Buffer List",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure UserBufferListOnAfterGetCurrRecord(var Rec: Record "User");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"User Buffer List");
     end;
     
     [EventSubscriber(ObjectType::Page,Page::"User Groups",'OnAfterGetCurrRecordEvent','',true,true)]
@@ -9662,36 +9393,6 @@ codeunit 79991 "About This Page Subscribers"
     local procedure UserLookupOnAfterGetCurrRecord(var Rec: Record "User");
     begin
         AboutThisPage.SetRec(Rec,Page::"User Lookup");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Event Recorder",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure EventRecorderOnAfterGetCurrRecord(var Rec: Record "Recorded Event Buffer");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Event Recorder");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Changed Permission Set List",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure ChangedPermissionSetListOnAfterGetCurrRecord(var Rec: Record "Permission Set Link");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Changed Permission Set List");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Tenant Permissions",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure TenantPermissionsOnAfterGetCurrRecord(var Rec: Record "Tenant Permission");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Tenant Permissions");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Permission Set List",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure PermissionSetListOnAfterGetCurrRecord(var Rec: Record "Permission Set Buffer");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Permission Set List");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Effective Permissions",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure EffectivePermissionsOnAfterGetCurrRecord(var Rec: Record "Permission");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Effective Permissions");
     end;
     
     [EventSubscriber(ObjectType::Page,Page::"CAL Test Suites",'OnAfterGetCurrRecordEvent','',true,true)]
@@ -10310,18 +10011,6 @@ codeunit 79991 "About This Page Subscribers"
     local procedure RegisteredAbsencesOnAfterGetCurrRecord(var Rec: Record "Registered Absence");
     begin
         AboutThisPage.SetRec(Rec,Page::"Registered Absences");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Demand Forecast Names",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure DemandForecastNamesOnAfterGetCurrRecord(var Rec: Record "Production Forecast Name");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Demand Forecast Names");
-    end;
-    
-    [EventSubscriber(ObjectType::Page,Page::"Demand Forecast Entries",'OnAfterGetCurrRecordEvent','',true,true)]
-    local procedure DemandForecastEntriesOnAfterGetCurrRecord(var Rec: Record "Production Forecast Entry");
-    begin
-        AboutThisPage.SetRec(Rec,Page::"Demand Forecast Entries");
     end;
     
     [EventSubscriber(ObjectType::Page,Page::"Order Promising Setup",'OnAfterGetCurrRecordEvent','',true,true)]
